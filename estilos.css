@@ -3,6 +3,34 @@ margin-top: 20px;
 
 }
 
+html, body{
+    height: 100%;
+}
+
+header {
+    background-image: url(imagem/quora.png);
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+}
+
+header h1 {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.banner {
+    color: #fff;
+    background-color: rgba(51, 51, 51, 0.541);
+    padding: 20px;
+    width: 60%;
+    border-radius: 5%;
+    position: absolute;
+    top: 50%;
+    transform: translateX(-50%);
+    transition: 0.3s;
+}
+
 .titulo-depoimento {
     background-color: blue;
     padding-top: 25px;
@@ -37,5 +65,24 @@ footer {
 }
 
 footer address:last-child{
-margin-bottom: 0;
+    margin-bottom: 0;
+}
+
+container
+
+@media(min-width: 768px) {
+    .projetos-responsivo {
+    width: 50%;
+    float: left;
+    }
+    #paines-sobre {
+        margin-top;0
+    }
+}
+
+@media(min-width: 992px) {
+    .banner { 
+        left:0;
+        transform: translate(0, -40px)
+    }
 }
